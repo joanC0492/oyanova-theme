@@ -1,0 +1,65 @@
+# GitIgnore
+
+## ── SO / editores ───────────────────────────────────────────
+
+.DS_Store
+Thumbs.db
+Icon?
+Desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+## ── Node / tooling ──────────────────────────────────────────
+
+node_modules/
+.npm/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.eslintcache
+.stylelintcache
+
+## ── Composer ────────────────────────────────────────────────
+
+/vendor/
+composer.phar
+
+## ── Builds / bundlers / caches ─────────────────────────────
+
+dist/
+build/
+public/build/
+assets/dist/
+assets/build/
+assets/.cache/
+.cache/
+.parcel-cache/
+.rollup.cache/
+coverage/
+*.map
+
+## ── Sass (legacy) ───────────────────────────────────────────
+
+.sass-cache/
+
+## ── Logs / temporales ───────────────────────────────────────
+
+*.log
+logs/
+*.zip
+
+## ── Entornos locales / WP Env / CLI ────────────────────────
+
+.env
+.env.*
+.wp-env/
+wp-cli.local.yml
+
+## ── Tests ──────────────────────────────────────────────────
+
+.phpunit.result.cache
+junit.xml
+clover.xml
